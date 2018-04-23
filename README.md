@@ -5,7 +5,7 @@
 The Zalo PHP SDK can be installed with [Composer](https://getcomposer.org/). Run this command:
 
 ```sh
-composer require phucledien/zalo-php-sdk
+composer require phucledien/php-zalo-sdk
 ```
 
 ## How To Use
