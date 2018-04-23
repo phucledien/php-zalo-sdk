@@ -17,27 +17,8 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 **Configuration**
 
+_copy file `ZaloConfig.php.example` from vendor folder to root folder, rename to `ZaloConfig.php`_
 ***File to config -> ZaloConfig.php***
-```php
-/** config your app id here */
-const ZALO_APP_ID_CFG = "put_your_app_id_here";
-    
-/** config your app secret key here */
-const ZALO_APP_SECRET_KEY_CFG = "put_your_secret_key_here";
-
-/** config your offical account id here */
-const ZALO_OA_ID_CFG = "put_your_oa_id_here";
-
-/** config your offical account secret key here */
-const ZALO_OA_SECRET_KEY_CFG = "put_your_oa_secret_key_here";
-```
-**Create an instance of the Zalo class**
-```php
-use Zalo\Zalo;
-use Zalo\ZaloConfig;
-
-$zalo = new Zalo(ZaloConfig::getInstance()->getConfig());
-```
 
 ## Social API
 
