@@ -1,0 +1,21 @@
+{
+    "name": "phucledien/zalo-php-sdk",
+    "description": "sdk for zalo developers",
+    "keywords": ["zalosdk", "composer", "zalo", "sdk"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "phucledien",
+            "email": "ahphuczpro@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4"
+    },
+	"autoload": {
+        "psr-4": {
+            "Zalo\\": "src/"
+        }
+    }
+}
