@@ -1,7 +1,7 @@
 {
-    "name": "phucledien/zalo-php-sdk",
+    "name": "phucledien/php-zalo-sdk",
     "description": "sdk for zalo developers",
-    "keywords": ["zalosdk", "composer", "zalo", "sdk"],
+    "keywords": ["zalosdk", "phucledien", "zalo", "sdk"],
     "license": "MIT",
     "authors": [
         {
