@@ -664,7 +664,7 @@ $result = $response->getDecodedBody();
 **Tạo sản phẩm**
 ```php
 $cate = array('cateid' => 'put_your_cate_id_here');
-$cates = [$cate];
+$cates[] = $cate;
 $photo = array('id' => 'put_your_image_id_here');
 $photos[] = $photo;
 $data = array(
