@@ -666,7 +666,7 @@ $result = $response->getDecodedBody();
 $cate = array('cateid' => 'put_your_cate_id_here');
 $cates = [$cate];
 $photo = array('id' => 'put_your_image_id_here');
-$photos = [$photo];
+$photos[] = $photo;
 $data = array(
     'cateids' => $cates,
     'name' => 'put_your_product_name_here',
